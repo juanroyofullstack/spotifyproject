@@ -1,0 +1,81 @@
+@mixin border-radius($radius){
+  -webkit-border-radius:$radius;
+  -moz-border-radius:$radius;
+  -ms-border-radius:$radius;
+  border-radius:$radius;
+}
+.viewGrid {
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-gap:1rem;
+  }
+  h1 {
+    text-align: center;
+  }
+  .card{
+      width: 90%;
+      background-color: #2F2F2F;
+      @include border-radius(12px);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      img {
+        width: 250px;
+        height:250px;
+        object-fit: cover;
+      }
+      h3{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+    
+      }
+     
+  }
+  .inputDisplay {
+    position: relative;
+    margin: 1rem auto;
+  }
+.inputDisplay input {
+  @include border-radius(15px);
+  width: 70%;
+  height: 20px;
+  margin: 0 auto;
+  padding-left: 1rem;
+}
+.inputDisplay button {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 9.3rem;
+  top: 5px;
+}
+.content {
+  padding-bottom: 1.5rem;
+}
+  .card:hover {
+    background-color: #636363;
+  }
+  @media (max-width: 1024px) {
+    .viewGrid {
+      grid-template-columns: repeat(3, 32%);
+      padding: 0 1rem;
+  }
+  }
+  @media (max-width: 768px) {
+    .viewGrid {
+      display: block;
+  }
+  .card {
+      margin: 0 auto;
+  }
+  .card img {
+    width: 100%;
+    height:100%
+  }
+}
