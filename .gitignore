@@ -6,9 +6,15 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .pnpm-debug.log*
 >>>>>>> 2b641ba (test)
+=======
+.pnpm-debug.log*
+=======
+>>>>>>> f510445 (Initial commit)
+>>>>>>> 0eea4ed (Initial commit)
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -46,12 +52,21 @@ node_modules/
 jspm_packages/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # TypeScript v1 declaration files
 typings/
 =======
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 >>>>>>> 2b641ba (test)
+=======
+# Snowpack dependency directory (https://snowpack.dev/)
+web_modules/
+=======
+# TypeScript v1 declaration files
+typings/
+>>>>>>> f510445 (Initial commit)
+>>>>>>> 0eea4ed (Initial commit)
 
 # TypeScript cache
 *.tsbuildinfo
@@ -63,11 +78,19 @@ web_modules/
 .eslintcache
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Optional stylelint cache
 .stylelintcache
 
 >>>>>>> 2b641ba (test)
+=======
+# Optional stylelint cache
+.stylelintcache
+
+=======
+>>>>>>> f510445 (Initial commit)
+>>>>>>> 0eea4ed (Initial commit)
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
@@ -84,6 +107,7 @@ web_modules/
 .yarn-integrity
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # dotenv environment variables file
 .env
 .env.test
@@ -94,6 +118,8 @@ web_modules/
 # Next.js build output
 .next
 =======
+=======
+>>>>>>> 0eea4ed (Initial commit)
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -102,7 +128,21 @@ web_modules/
 # Next.js build output
 .next
 out
+<<<<<<< HEAD
 >>>>>>> 2b641ba (test)
+=======
+=======
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# Next.js build output
+.next
+>>>>>>> f510445 (Initial commit)
+>>>>>>> 0eea4ed (Initial commit)
 
 # Nuxt.js build / generate output
 .nuxt
@@ -111,10 +151,17 @@ dist
 # Gatsby files
 .cache/
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
 =======
 # Comment in the public line in if your project uses Gatsby and not Next.js
 >>>>>>> 2b641ba (test)
+=======
+# Comment in the public line in if your project uses Gatsby and not Next.js
+=======
+# Comment in the public line in if your project uses Gatsby and *not* Next.js
+>>>>>>> f510445 (Initial commit)
+>>>>>>> 0eea4ed (Initial commit)
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
@@ -122,7 +169,10 @@ dist
 .vuepress/dist
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 0eea4ed (Initial commit)
 # vuepress v2.x temp and cache directory
 .temp
 .cache
@@ -130,7 +180,12 @@ dist
 # Docusaurus cache and generated files
 .docusaurus
 
+<<<<<<< HEAD
 >>>>>>> 2b641ba (test)
+=======
+=======
+>>>>>>> f510445 (Initial commit)
+>>>>>>> 0eea4ed (Initial commit)
 # Serverless directories
 .serverless/
 
@@ -143,7 +198,10 @@ dist
 # TernJS port file
 .tern-port
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 0eea4ed (Initial commit)
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
@@ -154,4 +212,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+<<<<<<< HEAD
 >>>>>>> 2b641ba (test)
+=======
+=======
+>>>>>>> f510445 (Initial commit)
+>>>>>>> 0eea4ed (Initial commit)
